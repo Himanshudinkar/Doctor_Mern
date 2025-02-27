@@ -1,0 +1,189 @@
+
+.navtext{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.cover{
+    background-image: url("/public/cover.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.homecontent{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+.cover .homecontent h1{
+    width: 600px;
+   
+    
+}
+.cover .homecontent h1 span{
+    color: rgb(44, 117, 206);
+}
+
+.cover .homecontent p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.foot{
+   margin-bottom: 0px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: rgb(44, 117, 206);
+    padding: 20px;
+    color: white;
+}
+.drcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.drcontent p{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.drcontent h1{
+    font-size: 30px;
+}
+.drcard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards{
+    width: 500px;
+ 
+    background-color: aliceblue;
+}
+
+.cards h4{
+    font-size: 18px;
+    color: gray;
+}
+
+.cards span{
+    color: black;
+}
+
+.forms Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+  
+}
+
+.apoint{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/public/apoint.jpeg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    
+    color: white;
+}
+
+.apoint h1{
+    font-size: 30px;
+}
+.appform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.appform .form1{
+    width: 400px;
+}
+
+.admin{
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 22px !important;
+  font-weight: 600;
+}
+.side{
+  height: 120vh;
+  width: 240px;
+  background-color: rgba(229, 226, 226, 0.233);
+  border-right: 1px solid black;
+  
+}
+
+.side nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  margin-left: 30px;
+  
+}
+
+.side nav ul li{
+  margin-top: 30px;
+  list-style: none;
+}
+
+.side nav ul li .linkstyle{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.linkstyle{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidecontent{
+  margin-right: 10px;
+}
+
+.dasimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
